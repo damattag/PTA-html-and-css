@@ -38,7 +38,6 @@ main {
     "tablito kolorix chicabon minions";
 }
 
-
 input {
   width: 378px;
   height: 24px;
@@ -92,6 +91,17 @@ input::placeholder {
   line-height: normal;
 }
 
+.card img {
+  width: 192px;
+  height: 192px;
+
+  align-self: center;
+}
+
+.primary img {
+  width: 270px;
+  height: 270px;
+}
 
 .description {
   display: flex;
