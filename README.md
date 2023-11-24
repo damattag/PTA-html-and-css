@@ -22,6 +22,8 @@ Repositório voltado para o treinamento de HTML e CSS do Processo de Treinamento
 - <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> HTML Geral; </a>
 - <a href="https://ayltoninacio.com.br/blog/tipos-de-input-html"> Tipos de input; </a>
 
+## Protótipo
+- <a href="https://www.figma.com/file/m7YeWlZU1GpjPbqkhFdXSj/PTA-de-Dev?node-id=0%3A1&mode=dev"> Figma </a>
 
 ## Quem?
 - Pessoa desenvolvedora <a href="https://github.com/jamillalobo"> @jamillalobo </a>
