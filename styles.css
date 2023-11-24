@@ -2,8 +2,44 @@ body {
     color:blueviolet
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "tablito brigadeiro chicabon brigadeiro-2"
+        "tablito brigadeiro-3 chicabon brigadeiro-4";
+}
+
 #tablito {
     background-color:aquamarine;
+    grid-area: tablito;
+}
+
+#chicabon {
+    grid-area: chicabon;
+}
+
+#brigadeiro {
+    grid-area: brigadeiro;
+}
+
+#brigadeiro-2 {
+    grid-area: brigadeiro-2;
+}
+
+#brigadeiro-3 {
+    grid-area: brigadeiro-3;
+}
+
+#brigadeiro-4 {
+    grid-area: brigadeiro-4;
 }
 
 h1 {
@@ -12,4 +48,20 @@ h1 {
 
 #tablito h1 {
     color:red
+}
+
+a:hover {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:actived {
+    color: blue;
+}
+
+p::first-letter {
+    color: yellowgreen;
 }
