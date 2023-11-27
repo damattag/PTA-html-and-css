@@ -4,6 +4,7 @@ body {
   background: #FAFAFA;
   -webkit-font-smoothing: antialiased;
   font-family: 'Montserrat', sans-serif;
+  color: black;
 }
 
 header {
@@ -110,7 +111,7 @@ input::placeholder {
 }
 
 .description h1 {
-  color: #292929;
+  color: inherit;
   
   font-size: 2rem;
 
@@ -364,5 +365,14 @@ footer a {
 
   footer #logo {
     display: none;
+  }
+}
+
+#theme-button {
+  border: none;
+  width: 24px;
+  background: none;
+  :hover {
+    cursor: pointer;
   }
 }
