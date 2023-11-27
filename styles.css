@@ -99,6 +99,13 @@ input::placeholder {
   align-self: center;
 }
 
+.card:hover {
+  cursor: pointer;
+
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
 .primary img {
   width: 270px;
   height: 270px;
