@@ -376,3 +376,7 @@ footer a {
     cursor: pointer;
   }
 }
+
+.dark-theme {
+  background-color: #292929;
+}
